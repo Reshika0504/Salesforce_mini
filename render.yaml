@@ -10,15 +10,13 @@ services:
           - key: NODE_VERSION
             value: 20
           - key: MONGODB_URI
-            value: mongodb+srv://Reshika_salesforce_mini:Reshika%402003@cluster0.g2dtz78.mongodb.net/mini_salesforce?retryWrites=true&w=majority&appName=Cluster0
+            sync: false
           - key: JWT_SECRET
-            value: your_secret_key
+            generateValue: true
           - key: JWT_EXPIRES_IN
             value: 1d
           - key: CLIENT_ORIGIN
             value: https://salesforce-mini-frontend.onrender.com
-          - key: PORT
-            value: 5000
 
     - type: web
       name: salesforce-mini-frontend
