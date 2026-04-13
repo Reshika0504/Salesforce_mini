@@ -2,7 +2,6 @@ services:
   - type: web
     name: salesforce-mini-backend
     runtime: node
-    plan: free
     rootDir: backend
     buildCommand: npm install
     startCommand: npm start
@@ -22,7 +21,6 @@ services:
   - type: web
     name: salesforce-mini-frontend
     runtime: static
-    plan: free
     rootDir: frontend
     buildCommand: npm install && npm run build
     staticPublishPath: ./dist
