@@ -9,6 +9,11 @@ A multi-tenant SaaS CRM starter modeled after a simplified Salesforce-style syst
 - Database: MongoDB + Mongoose
 - Auth: JWT + Role-Based Access Control
 
+## Live Demo
+You can look into live demo of my application here:
+- https://salesforce-mini-frontend.onrender.com
+ 
+
 ## Features
 
 - Tenant registration and tenant-scoped login
